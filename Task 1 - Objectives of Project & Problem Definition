@@ -7,9 +7,10 @@ Methodology)
 RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can answer the customers questions. Furhter matching techniques such as taking into account as much customer info as possible (for example social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic approach of the Information System. This needs to be done with the including the "Profiler Tool". The overall problem that the IS aims to solve is to find the best pairs of customer-RM-matches, meaning that each customer should get connected to the RM that is the best suited for the individual (potential) customer. 
 
 
+
 2) Objectives of the Project:
 
-The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts and tools such as GitHub will be used in order to collaboratively tackle problem. Another objective will be do document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems. 
+The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts and tools such as GitHub will be used in order to collaboratively tackle problem. Another objective will be do document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems.
 
 
 
