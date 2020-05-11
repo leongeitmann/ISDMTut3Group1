@@ -1,1 +1,17 @@
 List assumptions you have made in the systems analysis.
+
+
+Assumptions:
+
+1) Inbound calls: 
+All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that 
+is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. 
+
+2) Outbound calls:
+All Outbound calls are from RMs to potential customers, in which RMs aim to convince their interlocuters / conversation 
+partner to buy a holiday package. For this, the RM needs to be convincing quickly before the potential customer loses interest and hangs 
+up. Therefore, a time frame for the RM has been created, in which he needs to convey his message (for example advantages of holiday 
+packages) and convince the customer. This time frame has been put to 2 Minutes. If he has not conveyed his message or convinced the 
+customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer is 
+called and the process repeats itsself. 
+
