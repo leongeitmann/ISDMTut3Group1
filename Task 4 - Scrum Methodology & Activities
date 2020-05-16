@@ -1,19 +1,28 @@
 Explain the agile methodology, namely, Scrum you have used to carry out the procedure. In your explanation, ensure that you outline activities from Scrum that you use.
 ------------------------------------------------------------------------------------------------------------------------------
 In the project, the team has used framework of Scrum to accomplish the software development documentation. 
-The use of Scrum framework is varied to an extent since not all the requirements are met for the freamework. 
-In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements are given in the description. 
-For the development team, all the team members contribute as part of the development team. 
-There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of Scrum.
-Sprint period is changed to one week and the team members ensure to finish assigned tasks within one week. 
-We break down the assignment tasks to multiple small tasks whcih we should be able to finish in a week. 
-If one task of assignment is considered as product backlog, each borken down task respective to the tasks is a sprint backlog.
-We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. 
-Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective event. All the discussion, evaluations, and assigning are done in one time. 
-Since not all members is available everyday to make daily Scrum, we avoid to do the daily scrum.
-Our all-events scrum meeting is done on every Monday at tutorial time which is about one and a half hour. We discuss what we are going to finish and what we have finished.
-We evaluate our outputs and give feedback to each other.
-Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks for the assignment document. 
-We created files of product backlogs in github to complete our work and issues are created in order to break the product backlog down into smaller tasks whcih are sprint backlogs, accomplished every week. 
-Every week, each memeber needs to finsih the assigned task, whcih he decides to finish on that week and upload into the respective files.
+The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. 
+In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements 
+are given in the description. For the development team, all the team members contribute as part of the development team. 
+There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of
+Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, 
+discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be 
+able to finish in one sprint (monday to saturday). 
+If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog.
+We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished within
+one sprint, it gets added to the to-do list of the next sprint. 
+Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning,
+Sprint review and Sprint retrospective event. All the discussion, evaluations, and assigning are done in one time. 
+dince not all members is available everyday to make daily Scrum, we avoid to do the daily scrum meeting but communicate as much as needed
+via Microsoft Teams.
+Our scrum meeting (mainly sprint retrospective meeting followed by the planning of the next sprint) is done on every Monday at tutorial 
+time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our outputs
+and give feedback to each other.
+Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks for 
+the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to break the 
+product backlog down into smaller tasks which are sprint backlogs, accomplished every week. 
+Every week, each member needs to finsih the assigned task, which he decides to finish on that week and upload into the respective files.
 This is the product increment of our team in Scrum framework. 
+The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and see
+what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on 
+that board. 
