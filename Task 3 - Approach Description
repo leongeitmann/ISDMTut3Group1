@@ -19,13 +19,25 @@ The features of system automatic dialling might disrupt the work rhythm of the r
 an increased workload and low efficiency of work. The incorrect collection of relationship managers' detail might 
 lead to the wrong information record in profile and a skill matrix, and final cause the system matched the relationship 
 manager to the wrong customer.
- 
 
+
+In this system, a lot of RM information needs to be collected and matched with the user's information.
+As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,
+the user's information will easily be leaked
 
 
 Ideate
+Problem:a long waiting time and hard to hear the unclear voice.
+Solution:Categorize problems and set up some that most customers might encounter, and set up a human service if the problem 
+is not solved.
 
+Problem:The features of system automatic dialling might cause an increased workload and low efficiency of work.
+The RM worker can set his own working state in the system, and if the RM worker is already working, the system will automatically
+skip his selection.
 
+Problem:Customers' information may be leaked.
+Solution: The privacy information of users to take encryption measures to prevent users from being harassed 
+because of information disclosure。
 Prototype
 
 
