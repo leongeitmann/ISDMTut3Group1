@@ -7,7 +7,7 @@ Methodology)
 RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving 
 their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that 
 wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can 
-answer the customers questions. Furhter matching techniques such as taking into account as much customer info as possible (for example 
+answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example 
 social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic 
 approach of the Information System. This needs to be done with the including the "Profiler Tool". The overall problem that the IS aims 
 to solve is to find the best pairs of customer-RM-matches, meaning that each customer should get connected to the RM that is the best 
