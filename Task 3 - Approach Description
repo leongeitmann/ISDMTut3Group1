@@ -39,12 +39,21 @@ Problem:Customers' information may be leaked.
 Solution: The privacy information of users to take encryption measures to prevent users from being harassed 
 because of information disclosure。
 Prototype
-
+In MS Team.
 
 Test
-
-
-
+TC001 Login to the system
+RM can only login with phone number and valid text verification.
+TC002 See the main page
+RM can choose what they want to do in this page
+TC003 Browse current customers
+RM can see the list about customer ranked by stars.
+TC004 choosing
+RM can press the phone button to talk with customers
+TC005 Browse current recommend customers list
+RM can see the list about recommended customer by system.
+TC006 check the information
+RM can check user detail in this system.
 
 
 
