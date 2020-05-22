@@ -31,5 +31,14 @@ with high purchase-likelihood-score). The RM and calling customer get connected 
 of our products.
 
 2) "Call Out" assigned to Leon Geitmann
+Description:
+
+The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC 
+responds with all necessary information and automatically creates a list of potential customers with details for each one. 
+After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by 
+the CMC to make his calls. In the next step the RM therefore calls the potential customer and tries to convince him to buy
+one of our holiday packages. When the call is over, the customer will have decided if he/she would like to purchase a product.
+The RM will note that decision and notify the CMC if the customer decided to purchase a specific product or make no purchase
+at all. After this the RM can call the next potential customer and the sequence begins again.
 
 Every Diagram will be sent to Junkai Li who will visualize each in VISIO in order to have consistent graphics / Diagrams. 
