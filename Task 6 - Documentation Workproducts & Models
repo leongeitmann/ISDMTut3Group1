@@ -14,6 +14,11 @@
 2 Activity Diagrams:
 
 1) "Call In" assigned to Junkai Li
+Description:
+Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the customers
+score to determined who will be served first(High score will be served first, lower score will keep on waiting until RM respond).
+If no RM responded the call, all customer who is on hold will be transferred to the interactive voice response(IVP) unit.
+
 2) "Call Out" assigned to Mofan Heng
 
 
@@ -21,7 +26,6 @@
 
 1) "Call In" assigned to Leon Geitmann
 Description:
-
 The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC.
 Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself 
 (location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then 
@@ -32,7 +36,6 @@ of our products.
 
 2) "Call Out" assigned to Leon Geitmann
 Description:
-
 The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC 
 responds with all necessary information and automatically creates a list of potential customers with details for each one. 
 After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by 
