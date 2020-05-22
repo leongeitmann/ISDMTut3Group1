@@ -18,12 +18,12 @@ Class Diagram:
 
 1) "Call In" assigned to Junkai Li
 Description:
-Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the customers
-score to determined who will be served first(High score will be served first, lower score will keep on waiting until RM respond).
-If no RM responded the call, all customer who is on hold will be transferred to the interactive voice response(IVP) unit.In the 
-time with IVP, the customer will be asked to answer a few questions(E.x: Call Reason). The customer could choose to keep waiting 
-or end call in this stage. RM will be assigned to the customer, hopefully each customer will purchase our products.This process 
-will start again when another customer called CMC.
+Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the
+customers score to determined who will be served first(High score will be served first, the lower score will keep on 
+waiting until RM respond). If no RM responded the call, all customer who is on hold will be transferred to the interactive 
+voice response(IVP) unit. In the time with IVP, the customer will be asked to answer a few questions(E.x: Call Reason). 
+The customer could choose to keep waiting or end the call in this stage. RM will be assigned to the customer. hopefully, 
+each customer will purchase our products. This process will start again when another customer called CMC.
 
 2) "Call Out" assigned to Mofan Heng
 
