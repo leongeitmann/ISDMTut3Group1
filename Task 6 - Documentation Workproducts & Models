@@ -12,6 +12,15 @@ Class Diagram:
 
 1) RM calls potential customer ("Call Out") assigned to Ding Sun
 2) Interested Customer calls RM to buy holiday package ("Call In") assigned to Aung Myat
+Description:
+Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and
+generated automatically from the system in order to use in making a contact from customer to relationship manager.
+The features are selected according to the given description whcih should be essential to the system of call management centre.
+In order to make the calls better and get more customer satisfaction, some new customer services are added. For example,
+if the customer cannot wait too long for a free relationship manager, the system will take the record of the customer and 
+put the contact in the queue so that the relationship manager is given a reminder to call back the customer if the customer
+wants to be called back. 
+
 
 
 2 Activity Diagrams:
