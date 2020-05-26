@@ -54,6 +54,8 @@ TC005 Browse current recommend customers list
 RM can see the list about recommended customer by system.
 TC006 check the information
 RM can check user detail in this system.
+TC007 Score match
+RM can only call to the customer who has similar score.
 
 
 
