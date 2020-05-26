@@ -36,7 +36,7 @@ each customer will purchase our products. This process will start again when ano
 
 2) "Call Out" assigned to Mofan Heng
 Description:
-Outbound calls begin when the RM request calling to customers.The requestiong is held by CMC, then the information starts to 
+Outbound calls begin when the RM requests a calling to customer.The requestiong is held by CMC, then the information starts to 
 calculates RM skils and profile. The information system will creat a customer target list for each RM. The rule of match system is
 high score RM serves high score customers. ( the class diagram will achieve operation of match) Then, the RM will receive a 
 target list which have matched cuatomer details.(E.g: Name, Product preferences）The customers are able to choose answer the call 
