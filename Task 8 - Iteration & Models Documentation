@@ -1,9 +1,9 @@
 8. Document in GitHub all your iteration and models as you progress.
 
-Automatically done by Gothub through commites (issues, code section, moving on KanBan Board in "project"), Rest will be documented here:
+Automatically done by Github through commites (issues, code section, moving on KanBan Board in "project"), Rest will be documented here:
 
 
-Report Task-Distribution:
+Report Task-Distribution (Code Section, Tasks 1-8 divided):
 
 Task 1 - Leon Geitmann
 Task 2 - Aung Myat 
@@ -27,15 +27,16 @@ Task 6 (Diagrams):
 1) "Call In" Leon Geitmann
 2) "Call Out" Leon Geitmann
 
-Visualization by Junkai Li so every diagram looks the same
+(Task 6 Extra: Visualization by Junkai Li so every diagram looks the same)
 
 Task 7) Junkai Li
-Task 8: Github (automatically documents each step with issues)
+Task 8: Github (automatically documents each step with issues, other Information added here by Leon Geitmann)
 
 
+USER STORIES:
 Connect created User Stories to Graphs that address them and vise versa, add graph / class for each that is not yet implemented:
-Responsibilites of different User Stories (14 User Stories Total):
-Leon Geitmann 1-3
+Responsibilites of different User Stories (15 User Stories Total):
+Leon Geitmann 1-3, 15
 Mofan Heng 4-5 
 Ding Sun 6-8
 Aung Kung 9-11
@@ -52,8 +53,9 @@ Describe 3 User Stories & how we solved/implemented them - Leon Geitmann (1 min 
 Systems Analysis Assumptions (Task 5)
 Competitive Advantages & Adverse Effects (Task 7) - Mofan Heng
 
-Link for clear overview: https://docs.google.com/document/d/1w-SYsU2xNCIuOY6h6Y5dmQQViqB0fQch89mj-g-nwOs/edit
+Link for clear overview:
+https://docs.google.com/document/d/1w-SYsU2xNCIuOY6h6Y5dmQQViqB0fQch89mj-g-nwOs/edit
 
 
-
-
+Creation of Final Report (Paste & Copy Different Task-Sections from "Code"-Tab into one report, 
+Format Report using Markdown Language)
