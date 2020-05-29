@@ -28,8 +28,7 @@ and to find more, new ways to assisst RMs during their daily task of selling hol
 
 
 
-2. Identify stakeholders
-
+2. Stakeholders
 
 Stakeholder 1: RM (Relationship Manager, they sell the holiday packages to customers)
 Stakeholder 2: Customer (Buy Holiday Packages, aligned to best fitting RM)
@@ -43,13 +42,8 @@ Stakeholder 9: Hotels and resorts (can benefit from success of system)
 Stakeholder 10: Government (benefits from tax of customers)
 Stakeholder 11: Telecommunications company（decrease the cost of call）
 
-3. Describe your approach from a Design Thinking principles perspective
+3.  Design Thinking
 
-
-Approach:  Design Thinking
-
-Empathize
-Empathy Map is sent to MS team, because GitHub doesn't allow to add graph in.
 
 
 Define
@@ -102,7 +96,8 @@ RM can check user detail in this system.
 TC007 Score match
 RM can only call to the customer who has similar score.
 
-4. In the project, the team has used framework of Scrum to accomplish the software development documentation. 
+4. 
+In the project, the team has used framework of Scrum to accomplish the software development documentation. 
 The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. 
 In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements 
 are given in the description. For the development team, all the team members contribute as part of the development team. 
@@ -129,7 +124,7 @@ The progress is documented in github using the "project" section, so that every 
 what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on 
 that board. 
 
-5. Assumptions:
+5. Assumptions
 
 1) Inbound calls: 
 All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that 
@@ -151,20 +146,14 @@ Tool can therefore aid in assigning "potential buy scores" to inbound calling cu
 (and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
 
 
-6. Document your proposed workproducts and models.
-
-(UML Models, Products...)
-
-
-11.05.2020 - Creation and Distribution of Work Models:
+6. Workproducts and models.
 
 Class Diagram:
 
 
 2 Use Case Diagrams:
 
-1) RM calls potential customer ("Call Out") assigned to Ding Sun
-2) Interested Customer calls RM to buy holiday package ("Call In") assigned to Aung Myat
+1) Call In
 Description:
 Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and
 generated automatically from the system in order to use in making a contact from customer to relationship manager.
@@ -178,8 +167,8 @@ wants to be called back.
 
 2 Activity Diagrams:
 
-1) "Call In" assigned to Junkai Li
-Description:
+1) Call In
+
 Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the
 customers score to determined who will be served first(High score will be served first, the lower score will keep on 
 waiting until RM respond). If no RM responded the call, all customer who is on hold will be transferred to the interactive 
@@ -187,8 +176,8 @@ voice response(IVP) unit. In the time with IVP, the customer will be asked to an
 The customer could choose to keep waiting or end the call in this stage. RM will be assigned to the customer. hopefully, 
 each customer will purchase our products. This process will start again when another customer called CMC.
 
-2) "Call Out" assigned to Mofan Heng
-Description:
+2) Call Out
+
 Outbound calls begin when the RM requests a calling to customer.The requestiong is held by CMC, then the information starts to 
 calculates RM skils and profile. The information system will creat a customer target list for each RM. The rule of match system is
 high score RM serves high score customers. ( the class diagram will achieve operation of match) Then, the RM will receive a 
@@ -200,8 +189,8 @@ customer does not answer the call, end the call.
 
 2 Sequence Diagrams:
 
-1) "Call In" assigned to Leon Geitmann
-Description:
+1) Call In
+
 The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC.
 Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself 
 (location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then 
@@ -210,8 +199,8 @@ based on their recent performance. The best fitting RM will be assigned to each 
 with high purchase-likelihood-score). The RM and calling customer get connected and the customer will hopefully purchase one 
 of our products.
 
-2) "Call Out" assigned to Leon Geitmann
-Description:
+2) Call Out
+
 The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC 
 responds with all necessary information and automatically creates a list of potential customers with details for each one. 
 After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by 
@@ -220,4 +209,41 @@ one of our holiday packages. When the call is over, the customer will have decid
 The RM will note that decision and notify the CMC if the customer decided to purchase a specific product or make no purchase
 at all. After this the RM can call the next potential customer and the sequence begins again.
 
-Every Diagram will be sent to Junkai Li who will visualize each in VISIO in order to have consistent graphics / Diagrams.
+
+
+
+
+7. Discuss the competitive advantages might be gained in developing the new information
+system. Identify and discuss the possible adverse effects for this Business if its information
+system project fails
+
+Competitive Advantages
+
+The implementation of the new information system into the in-house call management centre (CMC) could bring 
+several benefits to the organisation and help in it to gain an important competetive advantage. The introduction of 
+the information system will provide the Relationship managers’ profile, their skill matrix and customers’ 
+information for the CMC to select the end-customers for providing a better quality server to the customer. This way,
+more valuable customers are guaranteed to be served in a shorter time. This aims to serve the most valued customers 
+as best as possible, which can ensure to keep them as a satisfied customer. 
+
+The CMC’s Information system enhances the data access to alleviate the time spent on the harassing call and 
+customer selecting to enhanced the overall efficiency, creates better sales and brings more value to the business. The
+Interactive Voice Response unit (IRP) and Automatic Number Identification does an caller authentication to the calls to 
+improve the security and handle the overflow calls to increase the communication and increased customers' satisfaction at 
+the same time. It could reduce the cost from reducing the average calling time and number of employees required in order to 
+provide more funds to the business.
+
+
+Adverse Effects
+ 
+Technological progress has brought countless benefits to the business, but an IT failure would be a disaster for the 
+enterprises. The failure of the information system could bring a massive impact to the business, employee and the 
+customer. The first impact is the loss of customers and market share, as the information system failure happened 
+relationship managers would no longer get the support from it. It will lead the customer called an unprepared and 
+unprofessional relationship managers and result in an unsatisfactory reply to the customer, which it will caused huge 
+market and financial loss to the business. Continued with it, as the information system failure occurs, business will 
+need to spend lots of time and manpower to solve it until it resumes operation. Every minute of the system downtime would
+cause a significant drop of the work efficiency and increase financial costs. After the information system goes back 
+online, the high investment on solving the IT failures might cause the business to fire a large range of employees to 
+maintain the business as normal. The missing or corrupted data might also occur after the IT failures, the loss or damage 
+of RM and customers' detail will takes a long time to resolve.
