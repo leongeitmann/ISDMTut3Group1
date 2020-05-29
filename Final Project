@@ -128,3 +128,24 @@ This is the product increment of our team in Scrum framework.
 The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and see
 what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on 
 that board. 
+
+5. Assumptions:
+
+1) Inbound calls: 
+All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that 
+is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. Therefore, inbound calling
+customers will not have to be convinced by RMs to buy a holiday package, but rather need to have their questions answered or assisted 
+in choosing which holiday package to purchase.
+
+2) Outbound calls:
+All Outbound calls are from RMs to potential customers, in which RMs aim to convince their interlocuters / conversation 
+partner to buy a holiday package. For this, the RM needs to be convincing quickly before the potential customer loses interest and hangs 
+up. Therefore, a time frame for the RM will be created, in which he needs to convey his message (for example advantages of holiday 
+packages) and convince the customer. This time frame has been put to 2 Minutes. If he has not conveyed his message or convinced the 
+customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer is 
+called and the process repeats itsself. 
+
+3) An already existing "Profiler Tool" creates profiles of all customers based on postcode and surnames and segments them into social 
+and financial segments which we assume to be correct in order to match each customer with the best RM possible. It is assumed that the Profiler
+Tool can therefore aid in assigning "potential buy scores" to inbound calling customers through recognizing where the customer lives 
+(and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
