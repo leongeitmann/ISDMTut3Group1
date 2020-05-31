@@ -80,32 +80,22 @@ Regarding to the artefacts of Scrum, all the product backlogs are given in the d
 
 This is the product increment of our team in Scrum framework. The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and see what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on that board. 
 
+
 **5. Systems Analysis Assumption** (Leon Geitmann)
 
 1) Inbound calls: 
-All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that 
-is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. Therefore, inbound
-calling customers will not have to be convinced by RMs to buy a holiday package, but rather need to have their questions answered or 
-assisted in choosing which holiday package to purchase.
+All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. Therefore, inbound calling customers will not have to be convinced by RMs to buy a holiday package, but rather need to have their questions answered or assisted in choosing which holiday package to purchase.
 
 2) Outbound calls:
-All Outbound calls are from RMs to potential customers, in which RMs aim to convince their interlocuters / conversation 
-partner to buy a holiday package. For this, the RM needs to be convincing quickly before the potential customer loses interest and hangs 
-up. Therefore, a time frame for the RM will be created, in which he needs to convey his message (for example advantages of holiday 
-packages) and convince the customer. This time frame has been put to 2 Minutes. If he has not conveyed his message or convinced the 
-customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer 
-is called and the process repeats itsself. 
+All Outbound calls are from RMs to potential customers, in which RMs aim to convince their interlocuters / conversation partner to buy a holiday package. For this, the RM needs to be convincing quickly before the potential customer loses interest and hangs up. Therefore, a time frame for the RM will be created, in which he needs to convey his message (for example advantages of holiday packages) and convince the customer. This time frame has been put to 2 Minutes. If he has not conveyed his message or convinced the customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer is called and the process repeats itsself. 
 
-3) An already existing "Profiler Tool" creates profiles of all customers based on postcode and surnames and segments them into social 
-and financial segments which we assume to be correct in order to match each customer with the best RM possible. It is assumed that the 
-Profiler Tool can therefore aid in assigning "potential buy scores" to inbound calling customers through recognizing where the customer 
-lives (and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
+3) An already existing "Profiler Tool" creates profiles of all customers based on postcode and surnames and segments them into social and financial segments which we assume to be correct in order to match each customer with the best RM possible. It is assumed that the Profiler Tool can therefore aid in assigning "potential buy scores" to inbound calling customers through recognizing where the customer lives (and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
 
 
 **6. Workproducts and models**
 
 **1. Overall Class Diagram (Junkai Li):**
-/images  
+
 
 
 
@@ -113,13 +103,7 @@ lives (and therefore being able to differentiate between lower and higher income
 
 2.1) Call In (Aung Myat)
 Description:
-Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and
-generated automatically from the system in order to use in making a contact from customer to relationship manager.
-The features are selected according to the given description whcih should be essential to the system of call management centre.
-In order to make the calls better and get more customer satisfaction, some new customer services are added. For example,
-if the customer cannot wait too long for a free relationship manager, the system will take the record of the customer and 
-put the contact in the queue so that the relationship manager is given a reminder to call back the customer if the customer
-wants to be called back. 
+Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and generated automatically from the system in order to use in making a contact from customer to relationship manager. The features are selected according to the given description whcih should be essential to the system of call management centre. In order to make the calls better and get more customer satisfaction, some new customer services are added. For example, if the customer cannot wait too long for a free relationship manager, the system will take the record of the customer and put the contact in the queue so that the relationship manager is given a reminder to call back the customer if the customer wants to be called back. 
 
 2.2 Call Out (Ding Sun)
 Description:
@@ -129,82 +113,37 @@ Description:
 
 3.1 ) Call In (Junkai Li)
 
-Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the
-customers score to determined who will be served first(High score will be served first, the lower score will keep on 
-waiting until RM respond). If no RM responded the call, all customer who is on hold will be transferred to the interactive 
-voice response(IVP) unit. In the time with IVP, the customer will be asked to answer a few questions(E.x: Call Reason). 
-The customer could choose to keep waiting or end the call in this stage. RM will be assigned to the customer. hopefully, 
-each customer will purchase our products. This process will start again when another customer called CMC.
+Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the customers score to determined who will be served first(High score will be served first, the lower score will keep on waiting until RM respond). If no RM responded the call, all customer who is on hold will be transferred to the interactive voice response(IVP) unit. In the time with IVP, the customer will be asked to answer a few questions(E.x: Call Reason). The customer could choose to keep waiting or end the call in this stage. RM will be assigned to the customer. hopefully, each customer will purchase our products. This process will start again when another customer called CMC.
 
 3.2) Call Out (Mofan Heng)
 
-Outbound calls begin when the RM requests a calling to customer.The requestiong is held by CMC, then the information starts to 
-calculates RM skils and profile. The information system will creat a customer target list for each RM. The rule of match system is
-high score RM serves high score customers. ( the class diagram will achieve operation of match) Then, the RM will receive a 
-target list which have matched cuatomer details.(E.g: Name, Product preferences）The customers are able to choose answer the call 
-or not. After the customers picking up, they can purchase products then end call, then the information system will record the
-performance of RM in the call and store it for later use.(Better service quality of RM is able to win more scores) If the 
-customer does not answer the call, end the call.
+Outbound calls begin when the RM requests a calling to customer.The requestiong is held by CMC, then the information starts to calculates RM skils and profile. The information system will creat a customer target list for each RM. The rule of match system is high score RM serves high score customers. ( the class diagram will achieve operation of match) Then, the RM will receive a target list which have matched cuatomer details.(E.g: Name, Product preferences）The customers are able to choose answer the call or not. After the customers picking up, they can purchase products then end call, then the information system will record the performance of RM in the call and store it for later use.(Better service quality of RM is able to win more scores) If the customer does not answer the call, end the call.
 
 
 **4. Sequence Diagrams** 
 
 1) Call In (Leon Geitmann)
 
-The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC.
-Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself 
-(location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then 
-requests the skill scores of the RMs currently available. The skill score for each RM are being calculated automatically
-based on their recent performance. The best fitting RM will be assigned to each calling customer (high skill score matched
-with high purchase-likelihood-score). The RM and calling customer get connected and the customer will hopefully purchase one 
-of our products.
+The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC. Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself (location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then requests the skill scores of the RMs currently available. The skill score for each RM are being calculated automatically based on their recent performance. The best fitting RM will be assigned to each calling customer (high skill score matched with high purchase-likelihood-score). The RM and calling customer get connected and the customer will hopefully purchase one of our products.
 
 2) Call Out (Leon Geitmann)
 
-The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC 
-responds with all necessary information and automatically creates a list of potential customers with details for each one. 
-After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by 
-the CMC to make his calls. In the next step the RM therefore calls the potential customer and tries to convince him to buy
-one of our holiday packages. When the call is over, the customer will have decided if he/she would like to purchase a product.
-The RM will note that decision and notify the CMC if the customer decided to purchase a specific product or make no purchase
-at all. After this the RM can call the next potential customer and the sequence begins again.
+The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC responds with all necessary information and automatically creates a list of potential customers with details for each one. After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by the CMC to make his calls. In the next step the RM therefore calls the potential customer and tries to convince him to buy one of our holiday packages. When the call is over, the customer will have decided if he/she would like to purchase a product. The RM will note that decision and notify the CMC if the customer decided to purchase a specific product or make no purchase at all. After this the RM can call the next potential customer and the sequence begins again.
 
 
 
-** 7. Discuss the competitive advantages might be gained in developing the new information
-system. Identify and discuss the possible adverse effects for this Business if its information
-system project fails**
+** 7. Discuss the competitive advantages might be gained in developing the new information system. Identify and discuss the possible adverse effects for this Business if its information system project fails**
 
 **Competitive Advantages**
 
-The implementation of the new information system into the in-house call management centre (CMC) could bring 
-several benefits to the organisation and help in it to gain an important competetive advantage. The introduction of 
-the information system will provide the Relationship managers’ profile, their skill matrix and customers’ 
-information for the CMC to select the end-customers for providing a better quality server to the customer. This way,
-more valuable customers are guaranteed to be served in a shorter time. This aims to serve the most valued customers 
-as best as possible, which can ensure to keep them as a satisfied customer. 
+The implementation of the new information system into the in-house call management centre (CMC) could bring several benefits to the organisation and help in it to gain an important competetive advantage. The introduction of the information system will provide the Relationship managers’ profile, their skill matrix and customers’ information for the CMC to select the end-customers for providing a better quality server to the customer. This way, more valuable customers are guaranteed to be served in a shorter time. This aims to serve the most valued customers as best as possible, which can ensure to keep them as a satisfied customer. 
 
-The CMC’s Information system enhances the data access to alleviate the time spent on the harassing call and 
-customer selecting to enhanced the overall efficiency, creates better sales and brings more value to the business. The
-Interactive Voice Response unit (IRP) and Automatic Number Identification does an caller authentication to the calls to 
-improve the security and handle the overflow calls to increase the communication and increased customers' satisfaction at 
-the same time. It could reduce the cost from reducing the average calling time and number of employees required in order to 
-provide more funds to the business.
+The CMC’s Information system enhances the data access to alleviate the time spent on the harassing call and customer selecting to enhanced the overall efficiency, creates better sales and brings more value to the business. The Interactive Voice Response unit (IRP) and Automatic Number Identification does an caller authentication to the calls to improve the security and handle the overflow calls to increase the communication and increased customers' satisfaction at the same time. It could reduce the cost from reducing the average calling time and number of employees required in order to provide more funds to the business.
 
 
 **Adverse Effects**
  
-Technological progress has brought countless benefits to the business, but an IT failure would be a disaster for the 
-enterprises. The failure of the information system could bring a massive impact to the business, employee and the 
-customer. The first impact is the loss of customers and market share, as the information system failure happened 
-relationship managers would no longer get the support from it. It will lead the customer called an unprepared and 
-unprofessional relationship managers and result in an unsatisfactory reply to the customer, which it will caused huge 
-market and financial loss to the business. Continued with it, as the information system failure occurs, business will 
-need to spend lots of time and manpower to solve it until it resumes operation. Every minute of the system downtime would
-cause a significant drop of the work efficiency and increase financial costs. After the information system goes back 
-online, the high investment on solving the IT failures might cause the business to fire a large range of employees to 
-maintain the business as normal. The missing or corrupted data might also occur after the IT failures, the loss or damage 
-of RM and customers' detail will takes a long time to resolve.
+Technological progress has brought countless benefits to the business, but an IT failure would be a disaster for the enterprises. The failure of the information system could bring a massive impact to the business, employee and the customer. The first impact is the loss of customers and market share, as the information system failure happened relationship managers would no longer get the support from it. It will lead the customer called an unprepared and unprofessional relationship managers and result in an unsatisfactory reply to the customer, which it will caused huge market and financial loss to the business. Continued with it, as the information system failure occurs, business will need to spend lots of time and manpower to solve it until it resumes operation. Every minute of the system downtime would cause a significant drop of the work efficiency and increase financial costs. After the information system goes back online, the high investment on solving the IT failures might cause the business to fire a large range of employees to maintain the business as normal. The missing or corrupted data might also occur after the IT failures, the loss or damage of RM and customers' detail will takes a long time to resolve.
 
 
 
