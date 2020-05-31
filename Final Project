@@ -102,10 +102,16 @@ All Outbound calls are from RMs to potential customers, in which RMs aim to conv
 **2. Use Case Diagrams:**
 
 2.1) Call In (Aung Myat)
+
+![Usu Case Call in](https://user-images.githubusercontent.com/62220299/82973433-b6853b00-a01a-11ea-969c-c0b07855e53e.PNG)
+
 Description:
 Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and generated automatically from the system in order to use in making a contact from customer to relationship manager. The features are selected according to the given description whcih should be essential to the system of call management centre. In order to make the calls better and get more customer satisfaction, some new customer services are added. For example, if the customer cannot wait too long for a free relationship manager, the system will take the record of the customer and put the contact in the queue so that the relationship manager is given a reminder to call back the customer if the customer wants to be called back. 
 
 2.2 Call Out (Ding Sun)
+
+![Use Case Call Out - Visio Professional 2020_5_16 16_58_32](https://user-images.githubusercontent.com/62220299/82148528-f409fb80-9897-11ea-8a1b-173f21dfeffc.png)
+
 Description:
 
 
@@ -113,9 +119,13 @@ Description:
 
 3.1 ) Call In (Junkai Li)
 
+![call in](https://user-images.githubusercontent.com/53921261/82893119-e3423f80-9f93-11ea-93a7-e74a66865363.png)
+
 Inbound calls begin when the customer dials CMC. As the call is held by CMC, the information starts to calculate the customers score to determined who will be served first(High score will be served first, the lower score will keep on waiting until RM respond). If no RM responded the call, all customer who is on hold will be transferred to the interactive voice response(IVP) unit. In the time with IVP, the customer will be asked to answer a few questions(E.x: Call Reason). The customer could choose to keep waiting or end the call in this stage. RM will be assigned to the customer. hopefully, each customer will purchase our products. This process will start again when another customer called CMC.
 
 3.2) Call Out (Mofan Heng)
+
+![call out](https://user-images.githubusercontent.com/53921261/82892695-4384b180-9f93-11ea-9d8f-8efde27688f6.PNG)
 
 Outbound calls begin when the RM requests a calling to customer.The requestiong is held by CMC, then the information starts to calculates RM skils and profile. The information system will creat a customer target list for each RM. The rule of match system is high score RM serves high score customers. ( the class diagram will achieve operation of match) Then, the RM will receive a target list which have matched cuatomer details.(E.g: Name, Product preferences）The customers are able to choose answer the call or not. After the customers picking up, they can purchase products then end call, then the information system will record the performance of RM in the call and store it for later use.(Better service quality of RM is able to win more scores) If the customer does not answer the call, end the call.
 
@@ -124,9 +134,12 @@ Outbound calls begin when the RM requests a calling to customer.The requestiong 
 
 1) Call In (Leon Geitmann)
 
+![Sequence Diagram Inbound Call - Visio Professional 2020_5_16 15_39_35](https://user-images.githubusercontent.com/62220299/82118930-a4ef9800-97bd-11ea-8e0a-3879931ef563.png)
+
 The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC. Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself (location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then requests the skill scores of the RMs currently available. The skill score for each RM are being calculated automatically based on their recent performance. The best fitting RM will be assigned to each calling customer (high skill score matched with high purchase-likelihood-score). The RM and calling customer get connected and the customer will hopefully purchase one of our products.
 
 2) Call Out (Leon Geitmann)
+
 ![Sequence Diagram Outbound Call - Visio Professional 2020_5_16 16_04_46](https://user-images.githubusercontent.com/62220299/82118946-ade06980-97bd-11ea-94a3-b75caa3287d0.png)
 
 The RM is ready to call a potential customer and therefore requests a call, including customer details from the CMC. The CMC responds with all necessary information and automatically creates a list of potential customers with details for each one. After these steps the RM has signaled that he's ready to make outbound calls and has received all necessary information by the CMC to make his calls. In the next step the RM therefore calls the potential customer and tries to convince him to buy one of our holiday packages. When the call is over, the customer will have decided if he/she would like to purchase a product. The RM will note that decision and notify the CMC if the customer decided to purchase a specific product or make no purchase at all. After this the RM can call the next potential customer and the sequence begins again.
