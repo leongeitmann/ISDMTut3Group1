@@ -6,7 +6,6 @@
 RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new Information System. 
 
 
-
 **2) Objectives of the Project:**
 
 The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in order to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers (including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
@@ -27,15 +26,15 @@ Stakeholder 9: Hotels and resorts (can benefit from success of system)
 Stakeholder 10: Government (benefits from tax of customers)
 Stakeholder 11: Telecommunications company（decrease the cost of call）
 
+
+
 **3. Design Thinking** (Junkai Li, Ding Sun)
 
 **Define**
 
 In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long waiting time and hard to hear the unclear voice ,whcih it cause a loss of satisfaction and patient to the customer.The collects of information about customers' preferences and culture might infringe customers privacy. Also, the speed of responding time depends on the customer rating system causes an unfair treatment to the customer.
 
-
 The features of system automatic dialling might disrupt the work rhythm of the relationship managers and result in an increased workload and low efficiency of work. The incorrect collection of relationship managers' detail might lead to the wrong information record in profile and a skill matrix, and final cause the system matched the relationship manager to the wrong customer.
-
 
 In this system, a lot of RM information needs to be collected and matched with the user's information. As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,the user's information will easily be leaked
 
@@ -50,8 +49,9 @@ Solution: The RM worker can set his own working state in the system, and if the 
 Problem:Customers' information may be leaked.
 Solution: The privacy information of users to take encryption measures to prevent users from being harassed because of information disclosure.
 
+
 **Prototype**
-In MS Team.
+
 
 **Test**
 TC001 Login to the system
@@ -68,6 +68,7 @@ TC006 check the information
 RM can check user detail in this system.
 TC007 Score match
 RM can only call to the customer who has similar score.
+
 
 
 **4. Scrum Methodology and Activities** (Aung Myat, Leon Geitmann)
