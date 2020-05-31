@@ -57,6 +57,9 @@ RM can check user detail in this system.
 TC007 Score match
 RM can only call to the customer who has similar score.
 
+Using username and password to test if you can login into system.
+Calling into the system by using different ranking account to test whether the list rank correctly.
+Clicking one of the customer to see whether the details are the same as customer input.
 
 
 
