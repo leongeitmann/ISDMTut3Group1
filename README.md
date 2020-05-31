@@ -20,3 +20,5 @@ Stakeholder 9: Hotels and resorts (can benefit from success of system)
 Stakeholder 10: Government (benefits from tax of customers)
 
 Stakeholder 11: Telecommunications company（decrease the cost of call）
+
+<img width="470" alt="Test" src="https://user-images.githubusercontent.com/62220299/83346387-3420b200-a35f-11ea-9ca1-7fd18923ec2b.png">
