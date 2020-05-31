@@ -1,7 +1,7 @@
-1. Outline the objectives of the project and define the problem (Steps 1 & 2 of Design Thinking Methodology) 
+**1. Outline the objectives of the project and define the problem (Steps 1 & 2 of Design Thinking Methodology)**
 
 
-1) Problem Definition:
+**1) Problem Definition:**
 
 RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving 
 their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that 
@@ -14,21 +14,21 @@ System.
 
 
 
-2) Objectives of the Project:
+**2) Objectives of the Project:**
 
 The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address
-the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in order
-to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the results
-and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other
-and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself will be to 
-implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the requirements 
-given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers (including matching 
-techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to an InteractiveVoiceRespone-System (IVR)
-and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
+the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in 
+order to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the 
+results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with 
+each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself 
+will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the 
+requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers 
+(including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the
+InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
 
 
 
-2. Stakeholders
+**2. Stakeholders**
 
 Stakeholder 1: RM (Relationship Manager, they sell the holiday packages to customers)
 Stakeholder 2: Customer (Buy Holiday Packages, aligned to best fitting RM)
@@ -42,11 +42,9 @@ Stakeholder 9: Hotels and resorts (can benefit from success of system)
 Stakeholder 10: Government (benefits from tax of customers)
 Stakeholder 11: Telecommunications company（decrease the cost of call）
 
-3.  Design Thinking
+**3. Design Thinking**
 
-
-
-Define
+**Define**
 
 In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long
 waiting time and hard to hear the unclear voice ,whcih it cause a loss of satisfaction and patient to the customer.The collects 
@@ -65,7 +63,7 @@ As the number of users increases, the time and energy required to manage the dat
 the user's information will easily be leaked
 
 
-Ideate
+**Ideate**
 Problem:a long waiting time and hard to hear the unclear voice.
 Solution:Categorize problems and set up some that most customers might encounter, and set up a human service if the problem 
 is not solved.
@@ -80,7 +78,7 @@ because of information disclosure。
 Prototype
 In MS Team.
 
-Test
+**Test**
 TC001 Login to the system
 RM can only login with phone number and valid text verification.
 TC002 See the main page
@@ -96,57 +94,55 @@ RM can check user detail in this system.
 TC007 Score match
 RM can only call to the customer who has similar score.
 
-4. 
+
+**4. Scrum Methodology and Activities**
+
 In the project, the team has used framework of Scrum to accomplish the software development documentation. 
 The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. 
 In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements 
 are given in the description. For the development team, all the team members contribute as part of the development team. 
-There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of
-Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, 
-discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be 
-able to finish in one sprint (monday to saturday). 
+There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be able to finish in one sprint (monday to saturday). 
 If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog.
-We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished within
-one sprint, it gets added to the to-do list of the next sprint. 
-Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning,
-Sprint review and Sprint retrospective event. All the discussion, evaluations, and assigning are done in one time. 
-dince not all members is available everyday to make daily Scrum, we avoid to do the daily scrum meeting but communicate as much as needed
-via Microsoft Teams.
-Our scrum meeting (including sprint retrospective meeting followed by the planning of the next sprint) is done on every Monday at tutorial 
-time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our outputs
-and give feedback to each other.
-Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks for 
-the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to break the 
-product backlog down into smaller tasks which are sprint backlogs, accomplished every week. 
+We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished
+within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a 
+half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective event. All the 
+discussion, evaluations, and assigning are done in one time. dince not all members is available everyday to make daily Scrum, we avoid 
+to do the daily scrum meeting but communicate as much as needed via Microsoft Teams. Our scrum meeting (including sprint retrospective 
+meeting followed by the planning of the next sprint) is done on every Monday at tutorial 
+time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our 
+outputs and give feedback to each other. 
+Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks 
+for the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to
+break the product backlog down into smaller tasks which are sprint backlogs, accomplished every week. 
 Every week, each member needs to finsih the assigned task, which he decides to finish on that week and upload into the respective files.
 This is the product increment of our team in Scrum framework. 
-The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and see
-what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on 
-that board. 
+The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and 
+see what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their 
+tasks on that board. 
 
-5. Assumptions
+**5. Systems Analysis Assumption**
 
 1) Inbound calls: 
 All Inbound calls are from customers who are interested in buying a holiday package and need to be assigned to a RM that 
-is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. Therefore, inbound calling
-customers will not have to be convinced by RMs to buy a holiday package, but rather need to have their questions answered or assisted 
-in choosing which holiday package to purchase.
+is best fitted for each customer. No In-Bound call has a different matter other than buying a holiday package. Therefore, inbound
+calling customers will not have to be convinced by RMs to buy a holiday package, but rather need to have their questions answered or 
+assisted in choosing which holiday package to purchase.
 
 2) Outbound calls:
 All Outbound calls are from RMs to potential customers, in which RMs aim to convince their interlocuters / conversation 
 partner to buy a holiday package. For this, the RM needs to be convincing quickly before the potential customer loses interest and hangs 
 up. Therefore, a time frame for the RM will be created, in which he needs to convey his message (for example advantages of holiday 
 packages) and convince the customer. This time frame has been put to 2 Minutes. If he has not conveyed his message or convinced the 
-customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer is 
-called and the process repeats itsself. 
+customer in that time, the potential customer will hang up and the conversation will be over. In that case, the next potential customer 
+is called and the process repeats itsself. 
 
 3) An already existing "Profiler Tool" creates profiles of all customers based on postcode and surnames and segments them into social 
-and financial segments which we assume to be correct in order to match each customer with the best RM possible. It is assumed that the Profiler
-Tool can therefore aid in assigning "potential buy scores" to inbound calling customers through recognizing where the customer lives 
-(and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
+and financial segments which we assume to be correct in order to match each customer with the best RM possible. It is assumed that the 
+Profiler Tool can therefore aid in assigning "potential buy scores" to inbound calling customers through recognizing where the customer 
+lives (and therefore being able to differentiate between lower and higher income areas, helping to evaluate customers).
 
 
-6. Workproducts and models.
+**6. Workproducts and models**
 
 Class Diagram:
 
@@ -211,13 +207,11 @@ at all. After this the RM can call the next potential customer and the sequence 
 
 
 
-
-
-7. Discuss the competitive advantages might be gained in developing the new information
+** 7. Discuss the competitive advantages might be gained in developing the new information
 system. Identify and discuss the possible adverse effects for this Business if its information
-system project fails
+system project fails**
 
-Competitive Advantages
+**Competitive Advantages**
 
 The implementation of the new information system into the in-house call management centre (CMC) could bring 
 several benefits to the organisation and help in it to gain an important competetive advantage. The introduction of 
@@ -234,7 +228,7 @@ the same time. It could reduce the cost from reducing the average calling time a
 provide more funds to the business.
 
 
-Adverse Effects
+**Adverse Effects**
  
 Technological progress has brought countless benefits to the business, but an IT failure would be a disaster for the 
 enterprises. The failure of the information system could bring a massive impact to the business, employee and the 
