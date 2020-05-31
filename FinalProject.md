@@ -173,6 +173,31 @@ The CMC’s Information system enhances the data access to alleviate the time sp
  
 Technological progress has brought countless benefits to the business, but an IT failure would be a disaster for the enterprises. The failure of the information system could bring a massive impact to the business, employee and the customer. The first impact is the loss of customers and market share, as the information system failure happened relationship managers would no longer get the support from it. It will lead the customer called an unprepared and unprofessional relationship managers and result in an unsatisfactory reply to the customer, which it will caused huge market and financial loss to the business. Continued with it, as the information system failure occurs, business will need to spend lots of time and manpower to solve it until it resumes operation. Every minute of the system downtime would cause a significant drop of the work efficiency and increase financial costs. After the information system goes back online, the high investment on solving the IT failures might cause the business to fire a large range of employees to maintain the business as normal. The missing or corrupted data might also occur after the IT failures, the loss or damage of RM and customers' detail will takes a long time to resolve.
 
+**8. Document in GitHub all your iteration and models as you progress** 
+
+**8.1 Automatically done by Github through commits (issues, code section, moving on KanBan Board in "project"), Rest will be documented in 8.2**
 
 
-ADD TASK 8 HERE!
+**8.2 Other Tasks-Distributions**
+
+**8.2.1 User-Stories**
+
+Leon Geitmann 1-3, 15
+Mofan Heng 4-5 
+Ding Sun 6-8
+Aung Kung 9-11
+Junkai Li  12-14 
+
+
+**8.2.2 Video Presentation Distribution**
+
+Introduction - Aung Kung Myat (Task 1 & 2, 1-2 minutes)
+Empathy Map - Junkai Li (30 sec - 1 min)
+Design Thinking Approach (Task 3, 1.5 - 2 minutes)
+Describe 3 User Stories & how we solved/implemented them - Leon Geitmann (1 min each, 3 min max total)
+Systems Analysis Assumptions (Task 5)
+Competitive Advantages & Adverse Effects (Task 7) - Mofan Heng
+
+Link for clear overview:
+https://docs.google.com/document/d/1w-SYsU2xNCIuOY6h6Y5dmQQViqB0fQch89mj-g-nwOs/edit
+
