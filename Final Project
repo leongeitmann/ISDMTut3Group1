@@ -65,20 +65,7 @@ Solution: The privacy information of users to take encryption measures to preven
 ![P4](https://user-images.githubusercontent.com/62220299/83346272-582fc380-a35e-11ea-85f0-951eb7120220.jpg)
 
 **Test**
-TC001 Login to the system
-RM can only login with phone number and valid text verification.
-TC002 See the main page
-RM can choose what they want to do in this page
-TC003 Browse current customers
-RM can see the list about customer ranked by stars.
-TC004 choosing
-RM can press the phone button to talk with customers
-TC005 Browse current recommend customers list
-RM can see the list about recommended customer by system.
-TC006 check the information
-RM can check user detail in this system.
-TC007 Score match
-RM can only call to the customer who has similar score.
+<img width="470" alt="Test" src="https://user-images.githubusercontent.com/62220299/83346387-3420b200-a35f-11ea-9ca1-7fd18923ec2b.png">
 
 
 
