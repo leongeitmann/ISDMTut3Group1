@@ -3,28 +3,13 @@
 
 **1) Problem Definition:** 
 
-RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving 
-their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that 
-wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can 
-answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example 
-social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic 
-approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.
-A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new 
-Information System. 
+RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new Information System. 
 
 
 
 **2) Objectives of the Project:**
 
-The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address
-the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in 
-order to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the 
-results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with 
-each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself 
-will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the 
-requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers 
-(including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the
-InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
+The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in order to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers (including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
 
 
 
@@ -46,36 +31,26 @@ Stakeholder 11: Telecommunications company（decrease the cost of call）
 
 **Define**
 
-In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long
-waiting time and hard to hear the unclear voice ,whcih it cause a loss of satisfaction and patient to the customer.The collects 
-of information about customers' preferences and culture might infringe customers privacy. Also, the speed of responding 
-time depends on the customer rating system causes an unfair treatment to the customer.
+In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long waiting time and hard to hear the unclear voice ,whcih it cause a loss of satisfaction and patient to the customer.The collects of information about customers' preferences and culture might infringe customers privacy. Also, the speed of responding time depends on the customer rating system causes an unfair treatment to the customer.
 
 
-The features of system automatic dialling might disrupt the work rhythm of the relationship managers and result in 
-an increased workload and low efficiency of work. The incorrect collection of relationship managers' detail might 
-lead to the wrong information record in profile and a skill matrix, and final cause the system matched the relationship 
-manager to the wrong customer.
+The features of system automatic dialling might disrupt the work rhythm of the relationship managers and result in an increased workload and low efficiency of work. The incorrect collection of relationship managers' detail might lead to the wrong information record in profile and a skill matrix, and final cause the system matched the relationship manager to the wrong customer.
 
 
-In this system, a lot of RM information needs to be collected and matched with the user's information.
-As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,
-the user's information will easily be leaked
+In this system, a lot of RM information needs to be collected and matched with the user's information. As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,the user's information will easily be leaked
 
 
 **Ideate**
-Problem:a long waiting time and hard to hear the unclear voice.
-Solution:Categorize problems and set up some that most customers might encounter, and set up a human service if the problem 
-is not solved.
+Problem:a long waiting time and hard to hear the unclear voice. 
+Solution:Categorize problems and set up some that most customers might encounter, and set up a human service if the problem is not solved.
 
-Problem:The features of system automatic dialling might cause an increased workload and low efficiency of work.
-The RM worker can set his own working state in the system, and if the RM worker is already working, the system will automatically
-skip his selection.
+Problem:The features of system automatic dialling might cause an increased workload and low efficiency of work. 
+Solution: The RM worker can set his own working state in the system, and if the RM worker is already working, the system will automatically skip his selection.
 
 Problem:Customers' information may be leaked.
-Solution: The privacy information of users to take encryption measures to prevent users from being harassed 
-because of information disclosure。
-Prototype
+Solution: The privacy information of users to take encryption measures to prevent users from being harassed because of information disclosure.
+
+**Prototype**
 In MS Team.
 
 **Test**
@@ -98,30 +73,12 @@ RM can only call to the customer who has similar score.
 **4. Scrum Methodology and Activities** (Aung Myat, Leon Geitmann)
 
 In the project, the team has used framework of Scrum to accomplish the software development documentation. 
-The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. 
-In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements 
-are given in the description. For the development team, all the team members contribute as part of the development team. 
-There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles 
-of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by 
-saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we 
-each hould be able to finish in one sprint (monday to saturday). 
-If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog.
-We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished
-within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a 
-half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective event. All the 
-discussion, evaluations, and assigning are done in one time. dince not all members is available everyday to make daily Scrum, we avoid 
-to do the daily scrum meeting but communicate as much as needed via Microsoft Teams. Our scrum meeting (including sprint retrospective 
-meeting followed by the planning of the next sprint) is done on every Monday at tutorial 
-time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our 
-outputs and give feedback to each other. 
-Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks 
-for the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to
-break the product backlog down into smaller tasks which are sprint backlogs, accomplished every week. 
-Every week, each member needs to finsih the assigned task, which he decides to finish on that week and upload into the respective files.
-This is the product increment of our team in Scrum framework. 
-The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and 
-see what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their 
-tasks on that board. 
+
+The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements are given in the description. For the development team, all the team members contribute as part of the development team. There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be able to finish in one sprint (monday to saturday). If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog. We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective event. All the discussion, evaluations, and assigning are done in one time. dince not all members is available everyday to make daily Scrum, we avoid to do the daily scrum meeting but communicate as much as needed via Microsoft Teams. Our scrum meeting (including sprint retrospective meeting followed by the planning of the next sprint) is done on every Monday at tutorial time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our outputs and give feedback to each other. 
+
+Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks for the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to break the product backlog down into smaller tasks which are sprint backlogs, accomplished every week. Every week, each member needs to finsih the assigned task, which he decides to finish on that week and upload into the respective files. 
+
+This is the product increment of our team in Scrum framework. The progress is documented in github using the "project" section, so that every member can look at the board (similiar to KanBan) and see what the others are working on, what is done and what is left to do. Each member is responsible for updating the state of their tasks on that board. 
 
 **5. Systems Analysis Assumption** (Leon Geitmann)
 
@@ -148,8 +105,8 @@ lives (and therefore being able to differentiate between lower and higher income
 **6. Workproducts and models**
 
 **1. Overall Class Diagram (Junkai Li):**
+/images  
 
-Description:
 
 
 **2. Use Case Diagrams:**
