@@ -9,8 +9,8 @@ wants to know specific information about a specific holiday package would need t
 answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example 
 social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic 
 approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.
-A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new Information
-System. 
+A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new 
+Information System. 
 
 
 
@@ -101,7 +101,10 @@ In the project, the team has used framework of Scrum to accomplish the software 
 The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. 
 In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements 
 are given in the description. For the development team, all the team members contribute as part of the development team. 
-There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be able to finish in one sprint (monday to saturday). 
+There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles 
+of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by 
+saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we 
+each hould be able to finish in one sprint (monday to saturday). 
 If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog.
 We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished
 within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a 
