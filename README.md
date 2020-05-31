@@ -2,4 +2,4 @@
 ISDM Tutorial 3 Group 1 Repository
 
 **1. Overall Class Diagram (Junkai Li):**
-![github-small](https://github.com/leongeitmann/ISDMTut3Group1/issues/20#issuecomment-633837748) 
+![Class Diagram 2](https://user-images.githubusercontent.com/62220299/82868519-1c68b880-9f70-11ea-9a5a-aba79ac01bb6.PNG)
