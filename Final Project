@@ -15,15 +15,24 @@ The objective of the project is to use a design thinking approach paired with th
 **2. Stakeholders** (Aung Myat)
 
 Stakeholder 1: RM (Relationship Manager, they sell the holiday packages to customers)
+
 Stakeholder 2: Customer (Buy Holiday Packages, aligned to best fitting RM)
+
 Stakeholder 3: IT Employee (work on system)
+
 Stakeholder 4: Project developers team (supporting in development of system)
+
 Stakeholder 5: CEO and organization (sponsoring the project)
+
 Stakeholder 6: Shareholders of organization (benefits according to the success of project)
+
 Stakeholder 7: Potential customers (people who want to know about the holiday packages)
 Stakeholder 8: Maintenance team (to maintain the system)
+
 Stakeholder 9: Hotels and resorts (can benefit from success of system)
+
 Stakeholder 10: Government (benefits from tax of customers)
+
 Stakeholder 11: Telecommunications company（decrease the cost of call）
 
 
@@ -106,16 +115,14 @@ All Outbound calls are from RMs to potential customers, in which RMs aim to conv
 Description:
 Since use case diagrams show the black box view of a system, a couple of features that are used by relationship managers and generated automatically from the system in order to use in making a contact from customer to relationship manager. The features are selected according to the given description whcih should be essential to the system of call management centre. In order to make the calls better and get more customer satisfaction, some new customer services are added. For example, if the customer cannot wait too long for a free relationship manager, the system will take the record of the customer and put the contact in the queue so that the relationship manager is given a reminder to call back the customer if the customer wants to be called back. 
 
-2.2 Call Out (Ding Sun)
+2.2) Call Out (Ding Sun)
 
 ![Use Case Call Out - Visio Professional 2020_5_16 16_58_32](https://user-images.githubusercontent.com/62220299/82148528-f409fb80-9897-11ea-8a1b-173f21dfeffc.png)
-
-Description:
 
 
 **3. Activity Diagrams:**
 
-3.1 ) Call In (Junkai Li)
+3.1) Call In (Junkai Li)
 
 ![call in](https://user-images.githubusercontent.com/53921261/82893119-e3423f80-9f93-11ea-93a7-e74a66865363.png)
 
@@ -130,13 +137,13 @@ Outbound calls begin when the RM requests a calling to customer.The requestiong 
 
 **4. Sequence Diagrams** 
 
-1) Call In (Leon Geitmann)
+4.1) Call In (Leon Geitmann)
 
 ![Sequence Diagram Inbound Call - Visio Professional 2020_5_16 15_39_35](https://user-images.githubusercontent.com/62220299/82118930-a4ef9800-97bd-11ea-8e0a-3879931ef563.png)
 
 The inbound call of course starts with a customer calling our insitution, where he gets connected to the CMC. Here a purchase likelihood score is assigned to the customer, based on info gathered from the call itsself (location, suburb, prefix, already purchased a product from this phone number in the past, etc.). The CMC then requests the skill scores of the RMs currently available. The skill score for each RM are being calculated automatically based on their recent performance. The best fitting RM will be assigned to each calling customer (high skill score matched with high purchase-likelihood-score). The RM and calling customer get connected and the customer will hopefully purchase one of our products.
 
-2) Call Out (Leon Geitmann)
+4.2) Call Out (Leon Geitmann)
 
 ![Sequence Diagram Outbound Call - Visio Professional 2020_5_16 16_04_46](https://user-images.githubusercontent.com/62220299/82118946-ade06980-97bd-11ea-94a3-b75caa3287d0.png)
 
