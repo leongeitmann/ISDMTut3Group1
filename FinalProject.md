@@ -3,37 +3,38 @@
 
 **1.1) Problem Definition:** 
 
-RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving their potential end-customers and needs to match RMs and endcustomers according to RMs skills and customers profiles. A customer that wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can answer the customers questions. Further matching techniques such as taking into account as much customer info as possible (for example social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new Information System. 
+RMs need to be assigned to the best fitting customer. Therefore, the Information System needs to provide assistance to RMs in serving their potential end-customers and needs to match RMs and end-customers according to RMs skills and customers profiles. A customer who wants to know specific information about a specific holiday package would need to be assigned to an RM that has the knowledge and can answer the customers' questions. Further matching techniques such as taking into account as much customer information as possible (for example social, cultural, financial and more backgroundinformation of the customers) and making the best use of it should reflect a strategic approach of the Information System. Many considerable variables form the main problem of matching RMs and customers as best as possible.A strategic approach is needed to solve this problem and to achieve substantial improvements for the business through our new Information System. 
 
 
 **1.2) Objectives of the Project:**
 
-The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in order to collaboratively tackle the problem. Another objective will be do document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itsself will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers (including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
+The objective of the project is to use a design thinking approach paired with the agile methodology of using Scrum as a team to address the problem stated above. Workproducts, models, artefacts (for example UML-Diagrams) and tools (for example Github) will be used in order to collaboratively tackle the problem. Another objective will be to document the progress of the team and to later present the results and solutions, including descriptions of UML-Diagrams describing how the components of the Information System will interact with each other and how the IS will provide the solution to the challenges and problems. The main objective of the Information System itself will be to implement mutliple improvements to the already existing CallManagementCentre (CMC). The explicit challenges derive from the requirements given beforehand. Some of the main details include adjusting the call-flow rate to suitable Relationship-Managers (including matching techniques for RM & customers (inbound & outbound calls)), redirecting inbound customers to the InteractiveVoiceRespone-System (IVR) and to find more, new ways to assisst RMs during their daily task of selling holiday packages. 
 
 
 
 **2. Stakeholders** (Aung Myat)
 
-Stakeholder 1: RM (Relationship Manager, they sell the holiday packages to customers)
+1: RM (Relationship Manager, they sell the holiday packages to customers)
 
-Stakeholder 2: Customer (Buy Holiday Packages, aligned to best fitting RM)
+2: Customer (Buy Holiday Packages, aligned to best fitting RM)
 
-Stakeholder 3: IT Employee (work on system)
+3: IT Employees (work on system)
 
-Stakeholder 4: Project developers team (supporting in development of system)
+4: Project developers team (develop the system)
 
-Stakeholder 5: CEO and organization (sponsoring the project)
+5: CEO and organization (sponsoring the project)
 
-Stakeholder 6: Shareholders of organization (benefits according to the success of project)
+6: Shareholders of organization (benefits according to the success of project)
 
-Stakeholder 7: Potential customers (people who want to know about the holiday packages)
-Stakeholder 8: Maintenance team (to maintain the system)
+7: Potential customers (people who want to know about the holiday packages)
 
-Stakeholder 9: Hotels and resorts (can benefit from success of system)
+8: Maintenance team (to maintain the system)
 
-Stakeholder 10: Government (benefits from tax of customers)
+9: Hotels and resorts (can benefit from success of system)
 
-Stakeholder 11: Telecommunications company（decrease the cost of call）
+10: Government (benefits from tax of customers)
+
+11: Telecommunications company（decrease the cost of call）
 
 
 
@@ -45,11 +46,11 @@ Stakeholder 11: Telecommunications company（decrease the cost of call）
 
 **3.2 Define**
 
-In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long waiting time and hard to hear the unclear voice ,whcih it cause a loss of satisfaction and patient to the customer.The collects of information about customers' preferences and culture might infringe customers privacy. Also, the speed of responding time depends on the customer rating system causes an unfair treatment to the customer.
+In the Customer point of view,the interactive voice response(IVR) unit of the call management centre(CMC) result in a long waiting time and hard to hear the unclear voice ,whcih causes a loss of satisfaction and patience to the customer.The collection of information about customers' preferences and culture might infringe customers privacy. Also, the speed of responding time depends on the customer rating system causes an unfair treatment to the customer.
 
 The features of system automatic dialling might disrupt the work rhythm of the relationship managers and result in an increased workload and low efficiency of work. The incorrect collection of relationship managers' detail might lead to the wrong information record in profile and a skill matrix, and final cause the system matched the relationship manager to the wrong customer.
 
-In this system, a lot of RM information needs to be collected and matched with the user's information. As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,the user's information will easily be leaked
+In this system, a lot of RM information needs to be collected and matched with the user's information. As the number of users increases, the time and energy required to manage the data will increase. If the data is not managed properly,the user's information will easily be leaked.
 
 
 **3.3 Ideate**
@@ -82,6 +83,7 @@ Solution: The privacy information of users to take encryption measures to preven
 
 ![P4](https://user-images.githubusercontent.com/62220299/83346272-582fc380-a35e-11ea-85f0-951eb7120220.jpg)
 
+
 **Test**
 <img width="470" alt="Test" src="https://user-images.githubusercontent.com/62220299/83346387-3420b200-a35f-11ea-9ca1-7fd18923ec2b.png">
 
@@ -91,7 +93,7 @@ Solution: The privacy information of users to take encryption measures to preven
 
 In the project, the team has used framework of Scrum to accomplish the software development documentation. 
 
-The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements are given in the description. For the development team, all the team members contribute as part of the development team. There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience the all the roles of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by saturday, discuss sprint review and assign new tasks on monday). We break down the assignment tasks to multiple small tasks which we each hould be able to finish in one sprint (monday to saturday). If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog. We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task can not be finished within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective event. All the discussion, evaluations, and assigning are done in one time. dince not all members is available everyday to make daily Scrum, we avoid to do the daily scrum meeting but communicate as much as needed via Microsoft Teams. Our scrum meeting (including sprint retrospective meeting followed by the planning of the next sprint) is done on every Monday at tutorial time, which is about one and a half hours long. We discuss what we are going to finish and what we have finished. We evaluate our outputs and give feedback to each other. 
+The use of Scrum framework is varied to an extent since not all the requirements are met for the framework. In case of three roles in Scrum, the project description is considered as the product owner as all the changes and requirements are given in the description. For the development team, all the team members contribute as part of the team. There is no fixed Scrum master because we all work as the same and manage together in order to let everyone experience all the roles of Scrum. The sprint period is changed to one week and the team members ensure to finish assigned tasks within one week (upload by Saturday, discuss sprint review and assign new tasks on Monday). We break down the assignment tasks to multiple small tasks which we each should be able to finish in one sprint (monday to saturday). If one task of the assignment is considered as a product backlog, each broken down task represents a sprint backlog. We make sure to finish our assigned tasks every sprint and no new one is assigned during the sprint. If one task cannot be finished within one sprint, it gets added to the to-do list of the next sprint. Most Scrum events are combined to one event with almost one and a half hour of time. We used tutorial time as the combined Sprint planning, Sprint review and Sprint retrospective events. All the discussions, evaluations, and assigning are done in one time. Since not all members is available everyday to make daily Scrum, we avoid to do the daily scrum meeting but communicate as much as needed via Microsoft Teams. We discuss what we are going to finish and what we have finished. We evaluate our outputs and give feedback to each other. 
 
 Regarding to the artefacts of Scrum, all the product backlogs are given in the description of product owner, which are required tasks for the assignment document. We created files of product backlogs in github to complete our work and issues are created in order to break the product backlog down into smaller tasks which are sprint backlogs, accomplished every week. Every week, each member needs to finsih the assigned task, which he decides to finish on that week and upload into the respective files. 
 
@@ -166,7 +168,7 @@ The RM is ready to call a potential customer and therefore requests a call, incl
 
 The implementation of the new information system into the in-house call management centre (CMC) could bring several benefits to the organisation and help in it to gain an important competetive advantage. The introduction of the information system will provide the Relationship managers’ profile, their skill matrix and customers’ information for the CMC to select the end-customers for providing a better quality server to the customer. This way, more valuable customers are guaranteed to be served in a shorter time. This aims to serve the most valued customers as best as possible, which can ensure to keep them as a satisfied customer. 
 
-The CMC’s Information system enhances the data access to alleviate the time spent on the harassing call and customer selecting to enhanced the overall efficiency, creates better sales and brings more value to the business. The Interactive Voice Response unit (IRP) and Automatic Number Identification does an caller authentication to the calls to improve the security and handle the overflow calls to increase the communication and increased customers' satisfaction at the same time. It could reduce the cost from reducing the average calling time and number of employees required in order to provide more funds to the business.
+The CMC’s Information system enhances the data access to alleviate the time spent on the harassing call and customer selecting to enhanced the overall efficiency, creates better sales and brings more value to the business. The Interactive Voice Response unit (IVR) and Automatic Number Identification does an caller authentication to the calls to improve the security and handle the overflow calls to increase the communication and increased customers' satisfaction at the same time. It could reduce the cost from reducing the average calling time and number of employees required in order to provide more funds to the business.
 
 
 **7.2 Adverse Effects**
